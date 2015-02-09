@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_row"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim_row_magnitude"
+    android:background="@drawable/selector_00_09"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_txt_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dim_margin_bottom_top_text_item"
+            android:layout_marginLeft="@dimen/dim_margin_left_text"
+            android:gravity="bottom"
+            android:text="@string/txt_quake_place" />
+
+        <TextView
+            android:id="@+id/txt_place"
+            style="@style/style_txt_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dim_margin_bottom_top_text_item"
+            android:layout_marginLeft="@dimen/dim_margin_text_to_text"
+            android:gravity="bottom"
+            android:text="@string/txt_quake_place" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_txt_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim_margin_left_text"
+            android:layout_marginTop="@dimen/dim_margin_bottom_top_text_item"
+            android:gravity="top"
+            android:text="@string/txt_magnitude" />
+
+        <TextView
+            android:id="@+id/txt_magnitude"
+            style="@style/style_txt_row"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dim_margin_text_to_text"
+            android:layout_marginTop="@dimen/dim_margin_bottom_top_text_item"
+            android:gravity="top"
+            android:text="@string/txt_magnitude" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_red">#ff0000</color>
+
+    <color name="color_gray_effect">#BDBDBD</color>
+    <color name="color_magnitude_00_09">#81C784</color>
+    <color name="color_magnitude_10_19">#66BB6A</color>
+    <color name="color_magnitude_20_29">#AED581</color>
+    <color name="color_magnitude_30_39">#9CCC65</color>
+    <color name="color_magnitude_40_49">#DCE775</color>
+    <color name="color_magnitude_50_59">#D4E157</color>
+    <color name="color_magnitude_60_69">#FFB74D</color>
+    <color name="color_magnitude_70_79">#FFA726</color>
+    <color name="color_magnitude_80_89">#E53935</color>
+    <color name="color_magnitude_90_99">#B71C1C</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_transparent_black">#80000000</color>
+    <color name="color_transparent_white">#8FFFFFFF</color>
+
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="style_txt_row">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+    <style name="style_txt_no_data">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_red</item>
+    </style>
+
+</resources>
